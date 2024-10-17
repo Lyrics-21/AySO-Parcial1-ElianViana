@@ -1,0 +1,358 @@
+    1  ll
+    2  sudo su analistas
+    3  whoami
+    4  sudo su
+    5  sudo su tester
+    6  cd
+    7  ll
+    8  sudo su analistas
+    9  cd
+   10  ll
+   11  sudo -u programadores bash -c 'whoami > /home/vagrant/parcial1/validar_programadores.txt'
+   12  ll
+   13  cd parcial1/
+   14  ll
+   15  vim puntoc
+   16  vim puntoc.sh 
+   17  sudo su programadores
+   18  sudo su tester
+   19  cd
+   20  sudo su analistas
+   21  sudo su disenadores
+   22  sudo su tester
+   23  su vagrant
+   24  sudo su programadores
+   25  ll
+   26  sudo fdisk -l
+   27  cd
+   28  mkdir parcial1
+   29  ññ
+   30  ll
+   31  cd parcial1/
+   32  ll
+   33  touch puntoa.sh && touch puntob.sh && puntoc.sh
+   34  touch puntoa.sh && touch puntob.sh && touch puntoc.sh
+   35  ll
+   36  touch puntod.sh && touch puntoe.sh && touch puntof.sh
+   37  ll
+   38  vim puntoa.sh 
+   39  bash puntoa.sh
+   40  tree Examenes-UTN/
+   41  sudo apt update
+   42  sudo apt install tree
+   43  tree Examenes-UTN/
+   44  ll
+   45  cd
+   46  ll
+   47  cd parcial1/
+   48  ll
+   49  vim puntob.sh 
+   50  bash puntob.sh
+   51  sudo fdisk -l
+   52  cd
+   53  ll
+   54  cd parcial1/
+   55  ll
+   56  vim puntoc.sh
+   57  cd
+   58  sudo groupadd grupoprogramadores
+   59  sudo groupadd grupotester
+   60  sudo groupadd grupoanalistas
+   61  sudo groupadd grupodisenadores
+   62  sudo cat /etc/group
+   63  cd
+   64  ll
+   65  sudo useradd -m -G grupoprogramadores -s /bin/bash programadores
+   66  sudo useradd -m -G grupotester -s /bin/bash tester
+   67  sudo useradd -m -G grupoanalistas -s /bin/bash analistas
+   68  sudo useradd -m -G grupodisenadores -s /bin/bash disenadores
+   69  cd
+   70  cd parcial1/
+   71  ll
+   72  vim puntoc.sh
+   73  cat /etc/passwd
+   74  sudo chown -R programadores:programadores /home/vagrant/parcial1/Examenes-UTN/alumno_1
+   75  sudo chown -R tester:tester /home/vagrant/parcial1/Examenes-UTN/alumno_2
+   76  sudo chown -R analistas:analistas /home/vagrant/parcial1/Examenes-UTN/alumno_3
+   77  sudo chown -R disenadores:disenadores /home/vagrant/parcial1/Examenes-UTN/profesores
+   78  ll
+   79  vim puntoc.sh
+   80  sudo chmod -R 750 /home/vagrant/parcial1/Examenes-UTN/alumno_1
+   81  sudo chmod -R 760 /home/vagrant/parcial1/Examenes-UTN/alumno_2
+   82  sudo chmod -R 700 /home/vagrant/parcial1/Examenes-UTN/alumno_3
+   83  sudo chmod -R 775 /home/vagrant/parcial1/Examenes-UTN/profesores
+   84  cd Examenes-UTN/
+   85  ll
+   86  cd ..
+   87  ll
+   88  vim puntoc.sh
+   89  sudo passwd programadores
+   90  sudo passwd tester
+   91  sudo passwd analistas
+   92  sudo passwd disenadores
+   93  cd
+   94  ll
+   95  su tester
+   96  ll
+   97  whoami
+   98  cd parcial1/
+   99  ll
+  100  vim puntoc.sh
+  101  cd
+  102  sudo -u tester bash -c 'whoami > /home/vagrant/parcial1/Examenes-UTN/alumno_2/validar.txt'
+  103  sudo -u tester bash -c 'whoami > /home/vagrant/parcial1/validar.txt'
+  104  ll
+  105  cd parcial1/
+  106  ll
+  107  cd Examenes-UTN/
+  108  ll
+  109  cd alumno_2/
+  110  cd
+  111  su programadores
+  112  ll
+  113  cd
+  114  su programadores
+  115  ll
+  116  cd parcial1/
+  117  ll
+  118  cd Examenes-UTN/
+  119  ll
+  120  cd alumno_
+  121  cd alumno_1/
+  122  sudo su
+  123  cd
+  124  sudo su analistas
+  125  cd
+  126  ll
+  127  whoami
+  128  pwd
+  129  cd ..
+  130  ll
+  131  cd vagrant/
+  132  all
+  133  ll
+  134  cd parcial1/
+  135  ll
+  136  sudo su analistas
+  137  ll
+  138  su disenadores
+  139  ll
+  140  vim puntoc.sh 
+  141  cd
+  142  cd parcial1/
+  143  vim puntoc.sh 
+  144  ll
+  145  cd parcial1/
+  146  ll
+  147  vim puntoc.sh 
+  148  mkdir -p Estructura-Simetrica/{correo,clientes}
+  149  ll
+  150  tree Estructura-Simetrica/
+  151  cd Estructura-Simetrica/clientes/
+  152  ll
+  153  touch cartas{1..50}
+  154  ll
+  155  cd ..
+  156  ll
+  157  cd ..
+  158  ll
+  159  rm -r Estructura-Simetrica/
+  160  ll
+  161  comando << EOF
+  162  asd
+  163  asd
+  164  asd
+  165  asdas
+  166  dad
+  167  EOF
+  168  ll
+  169  touch cartas.txt << A
+  170  wacho la concha de tu madre
+  171  nonono
+  172  A
+  173  cat cartas.txt 
+  174  lll
+  175  ll
+  176  cat > cartas.txt 
+  177  ll
+  178  cd parcial1/
+  179  ll
+  180  rm -r cartas.txt 
+  181  ll
+  182  arch.txt << A
+asd
+asd
+asd
+asd
+A
+
+  183  ll
+  184  vim puntod.sh 
+  185  ll
+  186  ./ puntod.sh
+  187  bash puntod.sh
+  188  ll
+  189  cd Estructura-Simetrica/
+  190  ll
+  191  cd clientes/
+  192  ll
+  193  cd ..
+  194  cd correo/
+  195  ll
+  196  cd..
+  197  cd
+  198  cd parcial1/
+  199  ll
+  200  rm -r Estructura-Simetrica/
+  201  ll
+  202  chmod 755 puntod.sh
+  203  ll
+  204  ./puntod.sh
+  205  ll
+  206  vim puntod.sh
+  207  tree Estructura-Simetrica/
+  208  rm -r Estructura-Simetrica/
+  209  vim puntod.sh 
+  210  ./puntod.sh
+  211  tree Estructura-Simetrica/
+  212  ll
+  213  cd ..
+  214  ll
+  215  git clone https://github.com/Lyrics-21/AySO-Parcial1-ElianViana.git
+  216  ll
+  217  mv parcial1/ AySO-Parcial1-ElianViana/
+  218  ll
+  219  cd AySO-Parcial1-ElianViana/
+  220  ll
+  221  cd parcial1/
+  222  ll
+  223  cd Examenes-UTN/
+  224  ll
+  225  cd ..
+  226  ll
+  227  cat /proc/meminfo
+  228  cat /proc/meminfo > Filtro_Basico.txt
+  229  ll
+  230  cat Filtro_Basico.txt 
+  231  cd ..
+  232  ll
+  233  cd parcial1/
+  234  ll
+  235  rm -r Filtro_Basico.txt 
+  236  ll
+  237  cat /proc/meminfo | grep "MemTotal" > Filtro_Basico.txt
+  238  ll
+  239  cat Filtro_Basico.txt 
+  240  rm -r Filtro_Basico.txt
+  241  ll
+  242  vim puntoe.sh
+  243  cat dmidecode -t chassis
+  244  cat /proc/
+  245  cd /proc/
+  246  ll
+  247  cd
+  248  ll
+  249  cd AySO-Parcial1-ElianViana/
+  250  ll
+  251  cd parcial1/
+  252  ll
+  253  dmidecode -t chassis
+  254  sudo dmidecode -t chassis
+  255  dmidecode -t chassis grep "Manufacturer"
+  256  sudo dmidecode -t chassis grep "Manufacturer"
+  257  sudo dmidecode -t chassis | grep "Manufacturer"
+  258  sudo dmidecode -t chassis
+  259  sudo dmidecode -t chassis | grep "Manufacturer"
+  260  man grep
+  261  sudo dmidecode -t chassis | grep -E "Chassis Information | Manufacturer"
+  262* sudo dmidecode -t chassis | grep -E "Chassis Information|Manufacturer
+  263  ll
+  264  vim puntoe.sh
+  265  bash puntoe.sh
+  266  ll
+  267  cat Filtro_Basico.txt 
+  268  ll
+  269  mv Filtro_Basico.txt ..
+  270  ll
+  271  cd ..
+  272  ll
+  273  cd parcial1/
+  274  ll
+  275  curl -s ifconfig.me
+  276  ll
+  277  cat curl -s ifconfig.me
+  278  curl -s ifconfig.me
+  279  curl -s ifconfig.me > Filtro_Avanzado.txt
+  280  cat Filtro_Avanzado.txt
+  281  curl -s ifconfig.me | head 1>> Filtro_Avanzado.txt
+  282  cat Filtro_Avanzado.txt 
+  283  curl -s ifconfig.me | head 1 > Filtro_Avanzado.txt
+  284  ll
+  285  rm -r Filtro_Avanzado.txt 
+  286  curl -s ifconfig.me | head 1 > Filtro_Avanzado.txt
+  287  curl -s ifconfig.me | head -n 1 > Filtro_Avanzado.txt
+  288  cat Filtro_Avanzado.txt
+  289  rm -r Filtro_Avanzado.txt 
+  290  ll
+  291  vim puntoe.sh 
+  292  vim puntof.sh 
+  293  bash puntof.sh
+  294  ll
+  295  cat Filtro.txt
+  296  rm -r Filtro.txt
+  297  vim puntod.sh
+  298  vim puntof
+  299  vim puntof.sh 
+  300  ll
+  301  bash puntof.sh
+  302  cat Filtro.txt
+  303  vim Filtro.txt
+  304  vim puntof.sh 
+  305  rm -r Filtro.txt
+  306  ll
+  307  cat /etc/passwd
+  308  cat /etc/shadow
+  309  sudo cat /etc/shadow
+  310  cat /etc/passwd
+  311  cat /etc/passwd | grep "vagrant"
+  312  cat /etc/passwd | grep "vagrant" | head -1
+  313  cat /etc/passwd | grep "vagrant" | head -n 1
+  314  cat /etc/passwd | grep "vagrant" | head -0
+  315  cat /etc/passwd | grep "vagrant" | head -1
+  316  vim puntof.sh 
+  317  ll
+  318  bash puntof.sh
+  319  cat Filtro_Avanzado.txt
+  320  rm -r Filtro_Avanzado.txt
+  321  vim puntof.sh
+  322  bash puntof.sh
+  323  cat Filtro_Avanzado.txt
+  324  rm -r Filtro_Avanzado.txt
+  325  vim puntof.sh
+  326  ll
+  327  bash puntof.sh
+  328  cat Filtro_Avanzado.txt
+  329  rm -r Filtro_Avanzado.txt
+  330  vim puntof.sh
+  331  bash puntof.sh
+  332  cat Filtro_Avanzado.txt
+  333  vim puntof.sh
+  334  sudo chmod 755 puntof.sh
+  335  ll
+  336  vim puntoe.sh
+  337  vim puntod.sh
+  338  vim puntof.sh
+  339  vim puntoa.sh
+  340  vim puntob.sh
+  341  vim puntod.sh
+  342  vim puntoe.sh
+  343  vim puntof.sh
+  344  man awk
+  345  vim puntof.sh
+  346  cd ..
+  347  ll
+  348  vim README.md
+  349  touch Historial.txt
+  350  ll
+  351  history -a
+  352  history >> Historial.txt
